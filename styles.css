@@ -19,3 +19,8 @@ body {
 h1 {
     font-family: 'GlacialIndifferenceRegular', system-ui;
 }
+
+img {
+    width: 30%;
+    height: 100%;
+}
