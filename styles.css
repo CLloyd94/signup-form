@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #341F5B;/* Used 60% of the time */ 
+    --secondary-color: #ffffff;/* Used 30% of the time */
+    --accent-color: #FE2E6C; /* Used 10% of the time */
+}
+
 body {
     font-family: system-ui,
         "Segoe UI",
@@ -14,13 +20,26 @@ body {
         "Segoe UI Symbol";;
     font-weight: normal;
     font-style: normal; 
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 h1 {
     font-family: 'GlacialIndifferenceRegular', system-ui;
+    
 }
 
 img {
     width: 30%;
     height: 100%;
+}
+
+button {
+    background-color: var(--accent-color);
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    color: var(--secondary-color);
 }
