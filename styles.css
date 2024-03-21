@@ -24,14 +24,32 @@ body {
     color: var(--secondary-color);
 }
 
+.container {
+    border: solid red 2px;
+    justify-content: space-between;
+    display: flex;
+}
+
 h1 {
     font-family: 'GlacialIndifferenceRegular', system-ui;
     
 }
 
 img {
-    width: 30%;
+    width: 100%;
     height: 100%;
+}
+
+.image-sidebar {
+    border: 2px pink solid;
+    width: 50rem;
+}
+
+
+.image-credit {
+    border: 2px green solid;
+    width: 100%;
+    text-align: center;
 }
 
 button {
