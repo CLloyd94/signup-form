@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    /* border: red 2px solid; */
 }
 
 :root {
@@ -42,7 +43,7 @@ img {
 
 .image-sidebar {
     border: 2px pink solid;
-    width: 50rem;
+    width: 60rem;
 }
 
 
@@ -53,7 +54,7 @@ img {
 }
 
 .text-body {
-    padding: 100px;
+    padding: 80px;
 }
 
 .intro-text {
@@ -61,11 +62,16 @@ img {
 }
 
 .text-container {
-    background-color: #FE2E6C;
+    /* background-color: #FE2E6C; */
+    width: 80%;
 }
 
 .cta {
     margin-bottom: 60px;
+}
+
+.form-row {
+    margin-bottom: 20px;
 }
 
 
@@ -73,6 +79,10 @@ button {
     background-color: var(--accent-color);
     font-weight: bold;
     color: white;
+    border-radius: 5px;
+    border-color: var(--accent-color);
+    font-size: 18px;
+    padding: 10px;
 }
 
 a {
