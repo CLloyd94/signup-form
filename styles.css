@@ -52,6 +52,23 @@ img {
     text-align: center;
 }
 
+.text-body {
+    padding: 100px;
+}
+
+.intro-text {
+    margin-bottom: 30px;
+}
+
+.text-container {
+    background-color: #FE2E6C;
+}
+
+.cta {
+    margin-bottom: 60px;
+}
+
+
 button {
     background-color: var(--accent-color);
     font-weight: bold;
