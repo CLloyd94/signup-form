@@ -26,7 +26,6 @@ body {
 }
 
 .container {
-    /* border: solid red 2px; */
     justify-content: space-between;
     display: flex;
 }
@@ -42,14 +41,12 @@ img {
 }
 
 .image-sidebar {
-    /* border: 2px pink solid; */
     width: 70rem;
     height: 70%;
 }
 
 
 .image-credit {
-    /* border: 2px green solid; */
     width: 100%;
     text-align: center;
 }
@@ -82,7 +79,6 @@ img {
     align-items: flex-start;
     /* To avoid stretching */
     margin-bottom: 20px;
-    border: 2px teal solid;
 }
 
 input {
@@ -93,6 +89,10 @@ input {
     margin-right: 30px;
 }
 
+input:focus {
+    box-shadow: grey 200px;
+}
+
 label {
     width: 250px;
     margin-top: 7px;
@@ -100,12 +100,9 @@ label {
     margin-right: 30px;
 }
 
-/* @media only screen and (min-width: 700px) {
- } */ 
 
 .signup-form {
     width: 80%;
-    border: 2px red solid;
 }
 
 button {
